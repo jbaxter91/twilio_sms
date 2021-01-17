@@ -1,0 +1,28 @@
+{
+  "name": "twilio_sms",
+  "version": "1.0.0",
+  "description": "Send sms messages using your twilio account inside a node terminal",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jbaxter91/twilio_sms.git"
+  },
+  "keywords": [
+    "twillio",
+    "sms"
+  ],
+  "author": "John Baxter",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jbaxter91/twilio_sms/issues"
+  },
+  "homepage": "https://github.com/jbaxter91/twilio_sms#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "inquirer": "^7.3.3",
+    "twilio": "^3.55.0"
+  }
+}
