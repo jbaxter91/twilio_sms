@@ -17,7 +17,7 @@ function init() {
     client.messages
       .create({
         body: answers.message,
-        from: "+17632805723",
+        from: `+${process.env.TWILIO_PHONE_NUMBER}`,
         to: `+${answers.number}`,
       })
       .then((message) => console.log(message));
